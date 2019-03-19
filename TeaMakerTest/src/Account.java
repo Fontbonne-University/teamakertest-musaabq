@@ -1,6 +1,7 @@
 import java.text.SimpleDateFormat;
 import java.util.*;
 
+
 class Account {
 	Hashtable<Date, Integer> _entries;
 	int getSalesBetween(DateRange range){
@@ -22,4 +23,5 @@ class Account {
 		}
 		return result;
 	}
+	
 }
